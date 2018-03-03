@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\Encapsulation\ConstData\ConstData\obj\Debug\ConstData.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\Encapsulation\ConstData\ConstData\obj\Debug\ConstData.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Encapsulation\ConstData\ConstData\bin\Debug\ConstData.exe.config
+C:\Users\Admin\Documents\GitHub\Encapsulation\ConstData\ConstData\bin\Debug\ConstData.exe
+C:\Users\Admin\Documents\GitHub\Encapsulation\ConstData\ConstData\bin\Debug\ConstData.pdb
+C:\Users\Admin\Documents\GitHub\Encapsulation\ConstData\ConstData\obj\Debug\ConstData.exe
+C:\Users\Admin\Documents\GitHub\Encapsulation\ConstData\ConstData\obj\Debug\ConstData.pdb

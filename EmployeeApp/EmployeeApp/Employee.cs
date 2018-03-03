@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeApp
 {
-    class Employee
+    partial class Employee
     {
         private string empName;
         private int empID;
@@ -14,7 +14,10 @@ namespace EmployeeApp
         private int empAge;
         private string empSSN;
 
+       
+
         //Конструкторы
+
         public Employee() {}
         public Employee(string name, int id , float pay)
         
@@ -29,6 +32,9 @@ namespace EmployeeApp
             empSSN = ssn;
             
         }
+      
+        { 
+       
         // метод
         public void GiveBones(float amount)
         {
@@ -49,33 +55,37 @@ namespace EmployeeApp
             }
             
         }
-        // свойства
-        public string SocialSecurityNumber
-        {
-            get { return empSSN; }
-        }
-        public int ID
-        {
-            get { return empID; }
-            set { empID = value; }
-        }
-        public float Pay
-        {
-            get { return currPay; }
-            set { currPay = value; }
-        }
-        public int Age
-        {
-            get { return empAge; }
-            set { empAge = value; }
-        }
-        public void DisplayStats()
-        {
-            Console.WriteLine("Name : {0} ", empName);
-            Console.WriteLine("ID : {0} ", empID);
-            Console.WriteLine("Pay : {0} ", currPay);
-            Console.WriteLine("Age : {0} ", empAge);
-            Console.WriteLine("SSN : {0} ", empAge);
+       
+       
+            // свойства
+            public string SocialSecurityNumber
+            {
+                get { return empSSN; }
+            }
+            public int ID
+            {
+                get { return empID; }
+                set { empID = value; }
+            }
+            public float Pay
+            {
+                get { return currPay; }
+                set { currPay = value; }
+            }
+            public int Age
+            {
+                get { return empAge; }
+                set { empAge = value; }
+            }
+            public void DisplayStats()
+            {
+                Console.WriteLine("Name : {0} ", empName);
+                Console.WriteLine("ID : {0} ", empID);
+                Console.WriteLine("Pay : {0} ", currPay);
+                Console.WriteLine("Age : {0} ", empAge);
+                Console.WriteLine("SSN : {0} ", empAge);
+
+            
         }
     }
 }

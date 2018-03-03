@@ -8,6 +8,16 @@ namespace ConstData
 {
     class MyMathClass
     {
-        public const double PI = 3.14;
+        public static readonly double PI = 3.14;
+        // поле только для чтения
+        public  readonly string Word ;
+        public static readonly int x = 8;
+
+        public MyMathClass()
+        {
+            Word = "banan";
+        }
+
+       
     }
 }
