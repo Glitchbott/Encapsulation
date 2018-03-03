@@ -12,19 +12,21 @@ namespace EmployeeApp
         private int empID;
         private float currPay;
         private int empAge;
+        private string empSSN;
 
         //Конструкторы
         public Employee() {}
         public Employee(string name, int id , float pay)
         
-            : this(name, 0, id, pay) { }
+            : this(name, 0, id, pay, "") { }
         
-        public Employee(string name, int id, int age, float pay)
+        public Employee(string name, int id, int age, float pay, string ssn)
         {
             Name = name;
             ID = id;
             Age = age;
             Pay = pay;
+            empSSN = ssn;
             
         }
         // метод
@@ -48,6 +50,10 @@ namespace EmployeeApp
             
         }
         // свойства
+        public string SocialSecurityNumber
+        {
+            get { return empSSN; }
+        }
         public int ID
         {
             get { return empID; }
@@ -69,6 +75,7 @@ namespace EmployeeApp
             Console.WriteLine("ID : {0} ", empID);
             Console.WriteLine("Pay : {0} ", currPay);
             Console.WriteLine("Age : {0} ", empAge);
+            Console.WriteLine("SSN : {0} ", empAge);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace EmployeeApp
             Marvin.Name = "Marv";
             Console.WriteLine("Employee is namde {0}*\n", Marvin.Name);
 
-            Employee joe = new Employee("Joe",2,2,2);
+            Employee joe = new Employee("Joe",2,2,2,"");
             Console.WriteLine("Employee is namde {0}*", joe.Name);
             joe.DisplayStats();
             joe.Age++;
