@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\Encapsulation\Objectlnitializers\Objectlnitializers\bin\Debug\Objectlnitializers.exe.config
+C:\Users\Admin\Documents\GitHub\Encapsulation\Objectlnitializers\Objectlnitializers\bin\Debug\Objectlnitializers.exe
+C:\Users\Admin\Documents\GitHub\Encapsulation\Objectlnitializers\Objectlnitializers\bin\Debug\Objectlnitializers.pdb
+C:\Users\Admin\Documents\GitHub\Encapsulation\Objectlnitializers\Objectlnitializers\obj\Debug\Objectlnitializers.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\Encapsulation\Objectlnitializers\Objectlnitializers\obj\Debug\Objectlnitializers.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Encapsulation\Objectlnitializers\Objectlnitializers\obj\Debug\Objectlnitializers.exe
+C:\Users\Admin\Documents\GitHub\Encapsulation\Objectlnitializers\Objectlnitializers\obj\Debug\Objectlnitializers.pdb
