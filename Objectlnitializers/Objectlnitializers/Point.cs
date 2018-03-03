@@ -10,17 +10,19 @@ namespace Objectlnitializers
     {
         public int X { get; set; }
         public int Y { get; set; }
+        public string Color;
 
-        public Point(int xVal , int yVal)
+        public Point(int xVal , int yVal , string color = " ")
         {
             X = xVal;
             Y = yVal;
+            Color = color;
         }
         public Point() { }
 
         public void DisplayStats()
         {
-            Console.WriteLine("{0}, {1}", X, Y);
+            Console.WriteLine("{0}, {1}", X, Y,Color);
         }
         
 

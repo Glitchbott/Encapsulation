@@ -13,9 +13,10 @@ namespace Objectlnitializers
             Point firstPoint = new Point();
             firstPoint.X = 10;
             firstPoint.Y = 10;
+            
             firstPoint.DisplayStats();
 
-            Point anotherPoint = new Point();
+            Point anotherPoint = new Point(20,20,"red");
             anotherPoint.DisplayStats();
 
             Point finalPoint = new Point();
