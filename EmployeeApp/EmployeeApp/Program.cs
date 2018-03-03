@@ -13,10 +13,15 @@ namespace EmployeeApp
             Console.WriteLine("**** Fun With Encapsulation*****\n");
             Employee Marvin = new Employee("Marvin", 256 , 30000);
             Marvin.DisplayStats();
+            Marvin.Name = "Marv";
+            Console.WriteLine("Employee is namde {0}*\n", Marvin.Name);
 
-            Marvin.SetName("Marv");
-            Console.WriteLine("Employee is namde {0}*", Marvin.GetName());
+            Employee joe = new Employee("Joe",2,2,2);
+            Console.WriteLine("Employee is namde {0}*", joe.Name);
+            joe.DisplayStats();
+            joe.Age++;
             Console.ReadLine();
+
 
         }
     }
