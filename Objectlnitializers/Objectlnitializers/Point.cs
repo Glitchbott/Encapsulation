@@ -22,7 +22,7 @@ namespace Objectlnitializers
 
         public void DisplayStats()
         {
-            Console.WriteLine("{0}, {1}", X, Y,Color);
+            Console.WriteLine("{0}, {1} {2}", X, Y,Color);
         }
         
 
