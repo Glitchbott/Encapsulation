@@ -13,7 +13,7 @@ namespace EmployeeApp
         private float currPay;
         private int empAge;
 
-        //Конструктор
+        //Конструкторы
         public Employee() {}
         public Employee(string name, int id , float pay)
         
@@ -21,11 +21,16 @@ namespace EmployeeApp
         
         public Employee(string name, int id, int age, float pay)
         {
-            empName = name;
-            empID = id;
-            empAge = age;
-            currPay = pay;
+            Name = name;
+            ID = id;
+            Age = age;
+            Pay = pay;
             
+        }
+        // метод
+        public void GiveBones(float amount)
+        {
+            Pay += amount;
         }
         public string Name
         {
