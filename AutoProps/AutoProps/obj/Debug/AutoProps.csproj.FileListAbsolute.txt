@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\Encapsulation\AutoProps\AutoProps\bin\Debug\AutoProps.exe.config
+C:\Users\Admin\Documents\GitHub\Encapsulation\AutoProps\AutoProps\bin\Debug\AutoProps.exe
+C:\Users\Admin\Documents\GitHub\Encapsulation\AutoProps\AutoProps\bin\Debug\AutoProps.pdb
+C:\Users\Admin\Documents\GitHub\Encapsulation\AutoProps\AutoProps\obj\Debug\AutoProps.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\Encapsulation\AutoProps\AutoProps\obj\Debug\AutoProps.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Encapsulation\AutoProps\AutoProps\obj\Debug\AutoProps.exe
+C:\Users\Admin\Documents\GitHub\Encapsulation\AutoProps\AutoProps\obj\Debug\AutoProps.pdb
